@@ -8,7 +8,7 @@ All experiments were run on **Kaggle Notebooks** using a GPU-enabled environment
 
 [Weights & Biases Report](https://api.wandb.ai/links/3628-pavitrakhare-indian-institute-of-technology-madras/lods8pjm)
 
-[Sweeps on kaggle](https://www.kaggle.com/code/pavitrakhare/notebook582f84c4ed/log?scriptVersionId=240492997)
+[Sweeps on kaggle](https://www.kaggle.com/code/pavitrakhare/noattnass3?scriptVersionId=240638279)
 
 ---
 
@@ -16,7 +16,7 @@ All experiments were run on **Kaggle Notebooks** using a GPU-enabled environment
 
 - Build a transliteration model from English to an Indian script using a vanilla encoder-decoder architecture.
 - Support for configurable hyperparameters (embedding size, hidden size, RNN type, bidirectionality, dropout, etc.).
-- Full data preprocessing pipeline for handling Aksharantar CSV datasets.
+- Full data preprocessing pipeline for handling Dakshina CSV datasets.
 - Visualize attention maps (when attention is used) and save predictions to CSV.
 
 ---
@@ -58,7 +58,7 @@ These are defined via `argparse` in `get_config()`.
 | `--wandb_project`    | `"DA6401_ASS3_VANILLA"`                                  | Project name on wandb                    |
 | `--wandb_entity`     | `"3628-pavitrakhare-indian-institute-of-technology-madras"` | Your wandb user or team               |
 | `--key`              | `"<wandb-api-key>"`                                      | wandb authentication key                 |
-| `--train`, `--val`, `--test` | CSV file paths                                     | Aksharantar CSV dataset locations       |
+| `--train`, `--val`, `--test` | CSV file paths                                     | Dakshina CSV dataset locations       |
 | `--hidden_layer_size`| `256`                                                    | Hidden size of RNN                       |
 | `--embedding_size`   | `256`                                                    | Size of token embeddings                 |
 | `--cell_type`        | `"LSTM"`                                                 | RNN variant: LSTM, GRU, or RNN           |
