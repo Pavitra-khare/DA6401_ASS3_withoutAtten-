@@ -6,7 +6,7 @@ All experiments were run on **Kaggle Notebooks** using a GPU-enabled environment
 
 [GitHub Repository](https://github.com/Pavitra-khare/DA6401_ASS3_withoutAtten-)
 
-[Weights & Biases Report](https://api.wandb.ai/links/3628-pavitrakhare-indian-institute-of-technology-madras/lods8pjm)
+[Weights & Biases Report](https://api.wandb.ai/links/3628-pavitrakhare-indian-institute-of-technology-madras/fnkwb8pr)
 
 [Sweeps on kaggle](https://www.kaggle.com/code/pavitrakhare/noattnass3?scriptVersionId=240638279)
 
