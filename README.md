@@ -96,13 +96,13 @@ pip install wandb
 Once dependencies are installed, run the training and testing loop using:
 
 ```bash
-python modular_train_vanilla.py --train <path_to_train.csv> --val <path_to_val.csv> --test <path_to_test.csv>
+python train.py --train <path_to_train.csv> --val <path_to_val.csv> --test <path_to_test.csv>
 ```
 
 You may customize any hyperparameter (e.g., encoder layers, hidden size, dropout, etc.) by adding flags:
 
 ```bash
-python modular_train_vanilla.py --train data/train.csv --val data/val.csv --test data/test.csv --cell_type GRU --dropout 0.3 --hidden_layer_size 512
+python train.py --train data/train.csv --val data/val.csv --test data/test.csv --cell_type GRU --dropout 0.3 --hidden_layer_size 512
 ```
 
 ---
